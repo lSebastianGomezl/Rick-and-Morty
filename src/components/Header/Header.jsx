@@ -4,7 +4,7 @@ export const Header = ({image}) => {
 
   return (
     <header>
-        <img src={image}/>
+        <img className="imgHeader" src={image}/>
     </header>
   )
 }

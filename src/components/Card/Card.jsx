@@ -8,7 +8,7 @@ export const Card = ({characters}) => {
     <div className="containerCard">
         {characters.map((item,index) =>(
           <div className="card" key={index}>
-              <img src={item.image} />
+              <img className="imgCard" src={item.image} />
               <p>{item.name}</p>
           </div> 
          ))}
